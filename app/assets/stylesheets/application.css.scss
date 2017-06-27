@@ -28,6 +28,15 @@
    }
  }
 
+ body {
+   /*Transparent film on BG to appear darker*/
+   background: linear-gradient(
+       rgba(0,0,0, 0.7),
+       rgba(0,0,0, 0.7)
+   ), url(space.jpg) no-repeat center center fixed;
+   color: white;
+ }
+
  #main_content {
      #content {
        float: none;
@@ -55,4 +64,16 @@
                }
            }
        }
+ }
+
+ .panel-default {
+   color: black;
+ }
+
+ .author {
+   color: white;
+ }
+
+ .btn-default {
+   background-color: lightblue;
  }
