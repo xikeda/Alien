@@ -54,8 +54,17 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# For Authentication
 gem 'devise'
 
+# Bootstrap
 gem 'bootstrap-sass', '~> 3.2.0.2'
 
+# Upvote/downvote
 gem 'acts_as_votable', '~> 0.10.0'
+
+# Comment Form
+gem 'simple_form'
+
+# Record Tag Helper
+gem 'record_tag_helper', '~> 1.0'
